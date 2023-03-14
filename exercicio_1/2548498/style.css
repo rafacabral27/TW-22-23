@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #bb9f80;
+    color: #fff;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.menu-head h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.6rem;
+}
+
+.container {
+    margin: 20px 20%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.nav-button {
+    padding: 4px 30px;
+    color: white;
+    background-color: #a97a3c;
+    border: 2px solid #af6431;
+    font-weight: bold;
+}
+
+#items {
+    padding: 2px;
+}
+
+.item {
+    text-align: left;
+    background-color: white;
+    width: 48%;
+    color: black;
+    padding: 5px;
+    display: flex;
+    border-radius: 12px;
+    box-shadow: 0 0 12px 5px rgb(0 0 0 / 15%);
+    float: left;
+    margin:1%;
+    height: 150px;
+}
+
+.item .item-img {
+    width: 30%;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.item-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.item .item-content {
+    width: 70%;
+    padding-left:10px;
+    margin: auto;
+}
+
+.item-content h2{
+    color: orange;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.item-content .rating{
+    color: #fc8e70;
+}
